@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --color-light: rgba(132, 139, 200, 0.18);
+    
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+
+    --card-padding: 2rem;
+    --padding-1: 1.3rem;
+
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: poppins, sans-serif;
+    font-size: 0.88rem;
+    background-color: #f6f6f9;
+    user-select: none;
+    color: #363949;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Isi Body */
+  }
+
+
+form {
+    background: #fff;
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--box-shadow);
+    transition: all 30ms ease;
+  }
+
+.header {
+    margin-bottom: 1rem;
+  }
+
+.judul {
+    font-size: 2rem;
+    color: #7380ec;
+  }
+
+.subtitle {
+    font-size: 1.1rem;
+  }
+
+.kotak {
+    margin-bottom: 1rem;
+  }
+.kotak-input {
+    margin-bottom: .5rem;
+  }
+.label {
+    display: block;
+    margin-bottom: .5rem;
+  }
+.input {
+    width: 100%;
+    display: block;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+.input:focus {
+    outline: none;
+    border-color: #7380ec;
+  }
+.tombol {
+    background: #7380ec;
+    color: #7380ec;
+    border: 0;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: .5rem;
+    border-radius: 5px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: inherit;
+    cursor: pointer;
+  }
+.tombol:hover {
+    background: #3c437d;
+  }
+a {
+    color: #363c76;
+    text-decoration: none;
+  }
+a:visited {
+    color: white;
+  } 

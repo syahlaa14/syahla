@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang=""en>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kelompok 9</title>
+        <!--MATERIAL CDN-->
+        <link href="https:fonts.googleapis.com/icon?family=Material+Icons+Sharp"rel="stylesheet">
+        <link href="https:fonts.googleapis.com/icon?family=Material+Symbols+Outlined"rel="stylesheet">
+        <!--STYLE SHEET-->
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <aside>
+                <div class="top">
+                    <div class="logo">
+                        <img src="./images/logo.png">
+                        <h2>i-<span class="danger">DOOR</span></h2>
+                    </div>
+                    <div class="close" id="close-btn">
+                        <span class="material-icons-sharp">close</span>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <a href=index.html>
+                        <span class="material-icons-sharp">grid_view</span>
+                        <h3>Home</h3>
+                    </a>
+                    <a href=jkt.html class="active">
+                        <span class="material-symbols-outlined">apartment</span>
+                        <h3>Jakarta</h3>
+                    </a>  
+                    <a href="#">
+                        <span class="material-symbols-outlined">apartment</span>
+                        <h3>Bandung</h3>
+                    </a>  
+                    <a href=smg.html>
+                        <span class="material-symbols-outlined">apartment</span>
+                        <h3>Semarang</h3>
+                    </a>  
+                    <a href=pwt.html>
+                        <span class="material-symbols-outlined">apartment</span>
+                        <h3>Purwokerto</h3>
+                    </a> 
+                    <a href="#">
+                    </a>
+                </div>
+            </aside>
+            <!---------END OF ASIDE--------->
+
+            <main>
+                <h1>Deluxe Room</h1>
+
+                <div class="date">
+                   <input type="date">
+                </div>
+
+                <div class="insights">
+                    <div class="KamarJakarta">
+                        <span class="material-icons-sharp">night_shelter</span>
+                        <div class="middle">
+                            <div class="left">
+                                <h3>Deluxe Room</h3>
+                                <h1>20</h1>
+                                <h2>150k / malam</h2>
+                            </div>
+                            <div class="progress">
+                            </div>
+                        </div>
+                    </div>
+                    <!----------------END OF JUMLAH KAMAR JKT------------------->
+                   <div class="KosongJakarta">
+                        <span class="material-icons-sharp">hotel</span>
+                        <div class="middle">
+                            <div class="left">
+                                <h3>Kamar Kosong</h3><h2>4</h2>
+                                <h3>Kamar Terbooking</h3><h2>16</h2>
+                            </div>
+                            <div class="progress">
+                            </div>
+                        </div>
+                        <small class="text-muted">Dari 2 Jam Lalu</small>
+                    </div>
+                    <!-----------------END OF KAMAR KOSONG JKT-------------------->
+                    <div class="BookingJakarta">
+                        <span class="material-icons-sharp">hotel</span>
+                        <div class="middle">
+                            <div class="left">
+                                <h3>Kamar Tersedia</h3><h2>4</h2>
+                                <h3>Kamar Tidak Tersedia</h3><h2>16</h2>
+                            </div>
+                        </div>
+                        <small class="text-muted">Dari 2 Jam Lalu</small>
+                    </div>
+                    <!------------------END OF KAMAR TERBOOKING JKT --------------------->
+                </div>
+                <!-----------END OF INSIGHTS--------------->
+
+                <div class="recent-orders">
+                    <h2>Profile Pemesan</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pemesan</th>
+                                <th>Kamar</th>
+                                <th>Nomor Hp</th>
+                                <th>Check In</th>
+                                <th>Check Out</th>
+                                <th>Jumlah Kamar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Zulfan Hanif</td>
+                                <td>Deluxe 04</td>
+                                <td>08888888</td>
+                                <td>7/5/2022</td>
+                                <td>7/10/2022</td>
+                                <td>1</td>
+                           </tr>
+                           <tr>
+                                <td>Syahla Meisyha</td>
+                                <td>Deluxe 01</td>
+                                <td>0855555555</td>
+                                <td>7/1/2022</td>
+                                <td>7/15/2022</td>
+                                <td>1</td>
+                            </tr>
+                    </table>
+                    <a href="#">Show All</a>
+                </div>
+            </main>
+            <!-----------END OF MAIN------------->
+
+            <div class="right">
+                <div class="top">
+                    <button id="menu-btn">
+                        <span class="material-icons-sharp">menu</span>
+                    </button>
+                    <div class="theme-toggler">
+                        <span class="material-icons-sharp active">light_mode</span>
+                        <span class="material-icons-sharp">dark_mode</span>
+                    </div>
+                    <div class="profile">
+                        <div class="info"
+                            <p>Halo, <b>Rifki</b></p>
+                            <small class="text-muted">Admin</small>
+                        </div>
+                        <div class="profile-photo">
+                            <img src="./images/profile-5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!------END OF TOP-------->
+                <div class="PesananTerbaru">
+                    <h2>Pesanan Terbaru</h2>
+                    <div class="updates">
+                        <div class="update">
+                            <div class="message">
+                                <p><b>Deluxe 15</b> Tolong bersihkan kamar saya</p>
+                                <small class="text-muted">2 Minutes Ago</small>
+                            </div>
+                        </div>
+                        <div class="update">
+                            <div class="message">
+                                <p><b>Deluxe 04</b> Kirimkan sarapan ke kamar saya</p>
+                                <small class="text-muted">2 Minutes Ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-----------------END OF RECENT UPDATES--------------->
+                <div class="RiwayatCO">
+                    <h2>Riwayat Checkout</h2>
+                    <div class="item add-product">
+                        <div>
+                            <span class="material-icons-sharp">add</span>
+                            <h3>Tambah Riwayat</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <script src="./index.js"></script>
+    </body>
+</html>
